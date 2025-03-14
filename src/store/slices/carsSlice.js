@@ -34,5 +34,5 @@ const carsSlice = createSlice({
   },
 });
 
-export const { changeSearchTerm, addCar, removeCar } = carsSlice.actions;
-export const carsReducer = carsSlice.reducer;
+export const { changeSearchTerm, addCar, removeCar } = carsSlice.actions;   // Export the action creators 
+export const carsReducer = carsSlice.reducer;  // Export the reducer function
